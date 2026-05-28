@@ -1,6 +1,3 @@
-# File Upload Route
-# Accepts .log and .txt files
-
 from flask import Blueprint, request, jsonify, current_app
 from flask_jwt_extended import jwt_required
 import os
@@ -8,7 +5,8 @@ import uuid
 
 upload_bp = Blueprint("upload", __name__)
 
-ALLOWED_EXTENSIONS = {"log", "txt"}
+# Added .json support for real ZScaler NSS format
+ALLOWED_EXTENSIONS = {"log", "txt", "json"}
 
 def allowed_file(filename):
     return "." in filename and filename.rsplit(".", 1)[1].lower() in ALLOWED_EXTENSIONS
@@ -25,9 +23,8 @@ def upload_file():
         return jsonify({"error": "Empty filename"}), 400
 
     if not allowed_file(file.filename):
-        return jsonify({"error": "Only .log and .txt files allowed"}), 400
+        return jsonify({"error": "Only .log, .txt and .json files allowed"}), 400
 
-    # Save with unique filename
     unique_name = f"{uuid.uuid4()}_{file.filename}"
     file_path = os.path.join(current_app.config["UPLOAD_FOLDER"], unique_name)
     file.save(file_path)
