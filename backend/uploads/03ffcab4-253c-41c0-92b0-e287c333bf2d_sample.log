@@ -1,0 +1,10 @@
+2026-05-26 10:32:11,192.168.1.15,john.doe,GET,example.com,ALLOW,200,Chrome
+2026-05-26 10:33:45,192.168.1.15,john.doe,POST,malware-site.ru,BLOCK,403,Chrome
+2026-05-26 10:34:12,192.168.1.22,jane.smith,GET,google.com,ALLOW,200,Firefox
+2026-05-26 02:15:33,192.168.1.45,bob.admin,GET,facebook.com,ALLOW,200,Chrome
+2026-05-26 10:35:01,192.168.1.15,john.doe,GET,suspicious-domain.xyz,BLOCK,403,Chrome
+2026-05-26 10:35:02,192.168.1.15,john.doe,GET,suspicious-domain.xyz,BLOCK,403,Chrome
+2026-05-26 10:35:03,192.168.1.15,john.doe,GET,suspicious-domain.xyz,BLOCK,403,Chrome
+2026-05-26 10:35:04,192.168.1.15,john.doe,GET,suspicious-domain.xyz,BLOCK,403,Chrome
+2026-05-26 10:35:05,192.168.1.15,john.doe,GET,suspicious-domain.xyz,BLOCK,403,Chrome
+2026-05-26 11:20:00,10.0.0.5,alice.wonder,GET,github.com,ALLOW,200,Safari
