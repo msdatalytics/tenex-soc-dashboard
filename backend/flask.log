@@ -1,0 +1,65 @@
+PostgreSQL database initialized successfully
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.233:5001
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [28/May/2026 19:12:02] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2026 19:12:26] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+/Users/sakshiankleshwariya/Documents/Tenex.ai Assignment/tenex-soc-dashboard/backend/venv/lib/python3.13/site-packages/jwt/api_jwt.py:147: InsecureKeyLengthWarning: The HMAC key is 21 bytes long, which is below the minimum recommended length of 32 bytes for SHA256. See RFC 7518 Section 3.2.
+  return self._jws.encode(
+127.0.0.1 - - [28/May/2026 19:12:26] "POST /api/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2026 19:12:32] "OPTIONS /api/upload HTTP/1.1" 200 -
+/Users/sakshiankleshwariya/Documents/Tenex.ai Assignment/tenex-soc-dashboard/backend/venv/lib/python3.13/site-packages/jwt/api_jwt.py:368: InsecureKeyLengthWarning: The HMAC key is 21 bytes long, which is below the minimum recommended length of 32 bytes for SHA256. See RFC 7518 Section 3.2.
+  decoded = self.decode_complete(
+127.0.0.1 - - [28/May/2026 19:12:32] "POST /api/upload HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2026 19:12:32] "OPTIONS /api/analyze/aec80850-0b91-4b57-b209-64c34a86202a_zscaler_sample.json HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2026 19:12:38] "GET /api/analyze/aec80850-0b91-4b57-b209-64c34a86202a_zscaler_sample.json HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2026 21:32:30] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+/Users/sakshiankleshwariya/Documents/Tenex.ai Assignment/tenex-soc-dashboard/backend/venv/lib/python3.13/site-packages/jwt/api_jwt.py:147: InsecureKeyLengthWarning: The HMAC key is 21 bytes long, which is below the minimum recommended length of 32 bytes for SHA256. See RFC 7518 Section 3.2.
+  return self._jws.encode(
+127.0.0.1 - - [28/May/2026 21:32:30] "POST /api/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2026 21:32:35] "OPTIONS /api/upload HTTP/1.1" 200 -
+/Users/sakshiankleshwariya/Documents/Tenex.ai Assignment/tenex-soc-dashboard/backend/venv/lib/python3.13/site-packages/jwt/api_jwt.py:368: InsecureKeyLengthWarning: The HMAC key is 21 bytes long, which is below the minimum recommended length of 32 bytes for SHA256. See RFC 7518 Section 3.2.
+  decoded = self.decode_complete(
+127.0.0.1 - - [28/May/2026 21:32:35] "POST /api/upload HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2026 21:32:35] "OPTIONS /api/analyze/484d55d0-4351-4b8e-ba87-b6ebb947a459_zscaler_sample.json HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2026 21:32:41] "GET /api/analyze/484d55d0-4351-4b8e-ba87-b6ebb947a459_zscaler_sample.json HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2026 21:45:04] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2026 21:45:04] "POST /api/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2026 21:45:35] "OPTIONS /api/upload HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2026 21:45:35] "POST /api/upload HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2026 21:45:35] "OPTIONS /api/analyze/cc2e4986-f356-4173-a858-07f41d19f099_sample.log HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2026 21:45:43] "GET /api/analyze/cc2e4986-f356-4173-a858-07f41d19f099_sample.log HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2026 21:45:55] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2026 21:45:55] "POST /api/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2026 21:46:08] "OPTIONS /api/upload HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2026 21:46:08] "POST /api/upload HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2026 21:46:08] "OPTIONS /api/analyze/8795f2ef-3021-44fd-82b5-6d0aad386234_zscaler_sample.json HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2026 21:46:13] "GET /api/analyze/8795f2ef-3021-44fd-82b5-6d0aad386234_zscaler_sample.json HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2026 21:50:24] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2026 21:50:24] "POST /api/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2026 21:51:28] "OPTIONS /api/upload HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2026 21:51:28] "POST /api/upload HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2026 21:51:28] "OPTIONS /api/analyze/fa942775-9f6e-4644-8693-0298e6501658_sample.log HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2026 21:51:34] "GET /api/analyze/fa942775-9f6e-4644-8693-0298e6501658_sample.log HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2026 21:51:47] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2026 21:51:47] "POST /api/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2026 21:51:54] "OPTIONS /api/upload HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2026 21:51:54] "POST /api/upload HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2026 21:51:54] "OPTIONS /api/analyze/e5fa399c-be63-4933-9711-ee2c9ab6ed7a_zscaler_sample.json HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2026 21:52:01] "GET /api/analyze/e5fa399c-be63-4933-9711-ee2c9ab6ed7a_zscaler_sample.json HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2026 21:57:28] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2026 21:57:28] "POST /api/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2026 21:58:16] "OPTIONS /api/upload HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2026 21:58:16] "POST /api/upload HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2026 21:58:16] "OPTIONS /api/analyze/bd864535-3569-4df2-aaf9-f2721a85fd35_sample.log HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2026 21:58:21] "GET /api/analyze/bd864535-3569-4df2-aaf9-f2721a85fd35_sample.log HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2026 21:58:39] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2026 21:58:39] "POST /api/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2026 21:58:45] "OPTIONS /api/upload HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2026 21:58:45] "POST /api/upload HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2026 21:58:45] "OPTIONS /api/analyze/b7450edf-be87-4640-b671-81c04db55667_zscaler_sample.json HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2026 21:58:51] "GET /api/analyze/b7450edf-be87-4640-b671-81c04db55667_zscaler_sample.json HTTP/1.1" 200 -

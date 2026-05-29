@@ -1,6 +1,6 @@
 # ZScaler Web Proxy Log Parser
 # Supports both:
-# 1. CSV format: timestamp,ip,user,method,domain,action,status,browser
+# 1. Log format: timestamp,ip,user,method,domain,action,status,browser
 # 2. Real ZScaler NSS JSON format (as used in Google Chronicle)
 
 import json
@@ -24,7 +24,7 @@ SUSPICIOUS_DOMAINS = [
 class ZScalerParser:
     """
     Parses ZScaler NSS web proxy logs into structured JSON.
-    Supports both CSV and real ZScaler JSON formats.
+    Supports both LOg and real ZScaler JSON formats.
     Similar to Google Chronicle SIEM normalization pipeline.
     """
 
